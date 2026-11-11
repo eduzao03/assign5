@@ -2,7 +2,7 @@ import yfinance as yf
 import streamlit as st
 import pandas as pd
 
-st.title("MSFT Monthly Sharpe Ratio")
+st.title("MSFT Monthly Sharpe Ratio by Edward Cho")
 
 # Define the ticker and risk-free rate
 ticker = 'MSFT'

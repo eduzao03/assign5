@@ -23,4 +23,4 @@ std_dev_return = monthly_returns.std()
 monthly_sharpe_ratio = mean_excess_return / std_dev_return
 
 st.title("MSFT Sharpe Ratio")
-st.title("Ticker: ",{ticker}, "Monthly Sharpe Ratio: ",{monthly_sharpe_ratio})
+st.subheader(f"Monthly Sharpe Ratio: {monthly_sharpe_ratio:.3f}")
